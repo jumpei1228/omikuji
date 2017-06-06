@@ -20,7 +20,7 @@
 
 module.exports = (robot) ->
 
-  robot.respond /omikuji/i, (msg) ->
+  robot.respond /おみくじ/i, (msg) ->
     omikuji = msg.random [
       "大吉"
       "中吉"
